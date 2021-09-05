@@ -54,9 +54,6 @@ body h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* I changed the flex direction to column to make the sections stack */
-  /* And added the align-items line to make them centered */
 }
 /* .container-experience{
   display: flex;
@@ -96,10 +93,6 @@ h2 {
 .experience {
   width: 80%;
   display: flex;
-  /* So it originally looked like this yesterday */
-  /* Then I did this to try and format the experience seciton */
-  /* Which breaks the width of the home, because this selector only targets .experience now */
-  /* We can fix this by adding a comma, which lets this rule apply to both classes at once */
 }
 
 /* Hobbies Section*/
@@ -126,7 +119,6 @@ footer a {
 /* Line break between sections */
 hr {
   border: 1px solid orange;
-  /* I changed the colour by changing the 'thick' in the border selected into 'solid' to make the attribute work */
   height: 1px;
   width: 80%;
   color: orange;
@@ -157,22 +149,6 @@ hr {
   margin: 10px;
   border-radius: 5%;
 }
-
-/* .hobbies > h2 {
-  font-size: 30px;
-
-  margin-bottom: 30px;
-}
-
-.background > h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-.goals > h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-} */
 
 h2 {
   font-size: 30px;
@@ -220,14 +196,13 @@ h2 {
 .right > img {
   width: 100%;
 }
-/*nice color change*/
+
 .left > h1 {
-  color: orange;
+  color: rgb(255, 166, 0);
 }
 
 footer a {
   text-decoration: none;
-  /* Nice */
 }
 .footer-image {
   width: 50px;

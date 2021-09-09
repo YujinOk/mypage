@@ -167,7 +167,7 @@ h2 {
 .command-lines {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 50%;
   text-align: left;
   flex-direction: column;
   width: 80%;
@@ -233,4 +233,24 @@ footer a {
 .signupbtn {
   color: black;
   background-color: orange;
+}
+
+table,
+th,
+td {
+  border: 0.4px solid rgb(236, 236, 223);
+}
+
+#codingJournal {
+  text-align: left;
+}
+
+.hiddenPage {
+  background-color: orange;
+  width: 80%;
+  display: none;
+}
+.showPage {
+  background-color: beige;
+  color: black;
 }

@@ -262,3 +262,7 @@ td {
 .container-1 * {
   margin: 6px;
 }
+
+.container-1 input {
+  color: black;
+}
